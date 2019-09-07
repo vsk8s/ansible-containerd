@@ -6,7 +6,7 @@
     name: "{{ item }}"
     state: present
   with_items:
-    - containerd.io
+    - containerd
     - aufs-tools
 
 - name: Configure service

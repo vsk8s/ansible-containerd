@@ -35,3 +35,5 @@
     state: started
     enabled: True
 
+- name: Flush handlers
+  meta: flush_handlers

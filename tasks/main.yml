@@ -7,7 +7,6 @@
     state: present
   with_items:
     - containerd
-    - aufs-tools
 
 - name: Create config directory
   become: True
